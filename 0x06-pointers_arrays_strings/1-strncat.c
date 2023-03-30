@@ -6,7 +6,7 @@
  * @n: amount of bytes used from src.
  * Return: the pointer to dest.
  */
-char *strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int dest_len = strlen(dest);
 	int i;
